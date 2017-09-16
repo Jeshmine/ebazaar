@@ -1,0 +1,79 @@
+/*------------------------------------------ background image --------------------------------------------*/
+.signInUpBackgroundImageWrapper{
+margin-top:50px;	
+padding:0px;
+}
+
+.signinBackgroundImage{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color:white;
+}
+
+#bg_img{
+height:91%;
+width:77%;
+}
+
+.signinBackgroundGradient{
+position:fixed;
+height:100%;
+width:100%;
+background: fixed no-repeat linear-gradient(to top,black, rgba(225,225,225,0) 37%);
+}
+
+
+
+
+
+/*-----------------------------------------------------sign in & sign up body----------------------------------------*/
+.signInUpWrapper{
+margin-top:25px;
+}
+
+#signupBtn,#signinBtn{
+font-size:19px;
+text-align:center;
+color:white;
+background:#0A0;
+border-radius:3px;
+border:#090 solid 1.3px;
+width:97px;
+height:35px;
+margin-top:7px;
+}
+
+#signupBtn:active,#signinBtn:active{
+background:#090;
+
+}
+
+/*footer part*/
+#foot{
+position:absolute;
+top:75%;
+color:white;
+font-size:47px;
+margin-left:37px;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-weight:bold;
+}
+
+
+@media only screen and (max-width: 768px){
+	
+/*footer part*/
+#foot{
+position:absolute;
+top:75%;
+color:white;
+font-size:37px;
+margin-left:27px;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-weight:bold;
+}
+	
+}
+
+

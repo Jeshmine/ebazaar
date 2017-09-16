@@ -1,0 +1,231 @@
+.topBodyWrapper{
+margin-top:55px;
+}
+
+/*-----------------------------------top section Slider-----------------------------*/
+.topSlider ul{
+list-style-type:none;
+margin:0px;
+padding:0px;
+}
+
+.topSlider,#slider_img{
+height:320px;
+width:100%;
+}
+
+.topSlider{
+	overflow:hidden;
+}
+
+#uploadImgBtn{
+    position: absolute;
+    top: 11px;
+    right: 27px;
+    z-index: 999;
+}
+
+#slider_img{
+position:absolute;
+top:0px;
+left:0px;
+}
+
+#front_gardient{
+//background:green;
+position:absolute;
+top:0px;
+left:0px;
+height:367px;
+width:100%;
+background:no-repeat linear-gradient(to top, #030303 , rgba(225,225,225,0) 45%);
+}
+
+#choose_slide ul{
+	position:absolute;
+	bottom:11px;
+	left:44%;
+	list-style-type:none;
+	cursor:default;
+}
+
+#choose_slide ul li{
+display:inline-block;
+height:13px;
+width:13px;
+cursor:pointer;
+background-color:#c9d3d2;
+border-radius:27px;
+margin-left:11px;
+border:1px solid #6A6A6A;
+}
+
+
+/*-----------------------------------End top section Slider-----------------------------*/
+
+
+/*-----------------------------------Top Panel section-----------------------------*/
+
+.top_pannel{
+height:51px;
+background:#ffffff;
+box-shadow:0px 1px 6px #c8c8c8;
+}
+
+#uploadProfileImageWrapper{
+height:225px;
+width:225px;
+border-radius:100%;
+margin-left:81px;
+margin-top:-125px;
+position:relative;
+overflow:hidden;
+}
+
+
+
+#mysite_img{
+height:225px;
+width:225px;
+border-radius:100%;
+box-shadow: 1.5px 1.5px 7px 0.3px #ADADAD;
+}
+
+#uploadProfileImageBtnWrapper{
+height:225px;
+width:225px;
+background:rgba(0,0,0,0.8);
+position:absolute;
+top:0px;
+display:none;
+
+}
+
+#uploadProfileImageBtn{
+	cursor:pointer;
+}
+
+.mysiteSearchBtn{
+	 position: absolute;
+	 top: 10px;
+	right: 25px;	
+	 border-top-left-radius:0px;
+	 border-bottom-left-radius:0px;
+}
+
+.topPannelMarginAlign{
+	margin-top:9px;
+}
+
+/*-----------------------------------Top Panel section-----------------------------*/
+
+
+
+
+/*-----------------------------------Detail Panel section-----------------------------*/
+#detail_pannel ul{
+	margin:17px 0px 0px 104px;
+	padding:0px;
+}
+
+#mysite_name{
+font-size:23px;
+font-weight:bold;
+margin-bottom:5px;
+}
+
+.mysite_detail{
+	font-size:17px;
+	padding:2px;
+}
+
+.panelMargin{
+margin:9px 50px;
+border-radius:5px;
+box-shadow:0px 1px 6px #c8c8c8;
+}
+
+
+#followPanel ul.followSectionUl{
+	padding:0px;
+	margin:0px;
+}
+
+.follow_title{
+	font-size:13px;
+padding:8px 5px;
+color:#989e9e;
+}
+
+.follow_number{
+font-size:25px;
+padding:0px 5px;
+
+}
+
+
+.aboutTitle{
+	padding-bottom:5px;
+	border-bottom:1px solid #e8e8e8;
+}
+
+.aboutBody{
+	margin-top:5px;
+	
+}
+/*-----------------------------------Detail Panel section-----------------------------*/
+
+
+
+/*--------------------------------------------add product-------------------------------------------*/
+#add_product{
+position:fixed;
+bottom:27px;
+left:400px;
+height:31px;
+width:31px;
+border-radius:100%;
+font-family:arial;
+font-size:28px;
+text-align:center;
+background:white url('../icons/plus.png') center no-repeat;
+box-shadow:0px 1px 6px #c8c8c8;
+cursor:pointer;
+z-index:1;
+}
+
+#add_product:hover{
+background:#f5f5f5 url('../icons/plus.png') center no-repeat;
+}
+
+
+
+
+/*-------------------------------------------product panel-------------------------------------------*/
+.singleCategoryBodyProductWrappermySite{
+	display:inline-block;
+	vertical-align:top;
+	height:350px;
+	width:260px;
+	margin:7px;
+	overflow:hidden;
+	border-radius:3px;
+	position:relative;
+	border: 1px solid #eee;
+}
+
+.singleCategoryBodyProductWrappermySite:hover{
+	box-shadow:0px 1px 6px #c7c7c7;
+}
+
+.editBtnmySite{
+	display:none;
+}
+
+.singleCategoryBodyProduct:hover{
+	color:black;
+}
+
+
+
+/*-------------------------------------------product panel-------------------------------------------*/

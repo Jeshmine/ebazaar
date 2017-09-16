@@ -1,0 +1,60 @@
+.notificationWrapper{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/*notification header*/
+.notificationHeader{
+	border-bottom: 1px solid #eee;
+    font-size: 20px;
+    font-weight: 700;
+	padding-bottom:7px;
+	padding-left:15px;
+}
+
+
+.single_notification_Wrapper{
+	position:relative;
+}
+
+/*notification single_notification*/
+.single_notification{
+cursor:pointer;
+border-top:1px solid #c8c8c8;
+padding: 15px;
+height:100px;
+position:relative;
+}
+
+.single_notification:hover{
+background:#edf2fa; 
+color:black;
+
+}
+
+/*.single_notification:nth-child(odd) {
+    background: #edf2fa;
+}*/
+
+.notification_message{
+position:absolute;
+    top: 16px;
+    left: 91px;
+    width: 89%;
+	min-height:41px;
+word-wrap: break-word;
+}
+
+
+.notificationTime{
+	position:absolute;
+top: 46px;
+left: 0px;
+}
+
+/*notification cross*/
+.notificationCross{
+    position: absolute;
+   top: 11px;
+right: 17px;
+}

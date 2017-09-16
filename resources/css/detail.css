@@ -1,0 +1,26 @@
+
+.upload_wrapper{
+margin-top:77px;
+}
+
+
+#info{
+font-weight:bold;
+font-size:31px;
+margin-bottom:13px;
+}
+
+
+#next_button{
+color:white;
+font-family:Arial,sans-serif;
+font-size:19px;
+background:#0A0;
+border-radius:3px;
+border:#090 solid 1.3px;
+width:97px;
+height:35px;
+float:right;
+margin-right:79px;
+}
+

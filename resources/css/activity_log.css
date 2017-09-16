@@ -1,0 +1,71 @@
+.activityWrapper{
+	margin-left:-15px;
+	margin-right:-15px;
+	margin-bottom:-15px;
+}
+
+/*activity header*/
+.activityHeader{
+	 border-bottom: 1px solid #eee;
+    font-size: 20px;
+    font-weight: 700;
+	padding-bottom:7px;
+	padding-left:15px;
+}
+
+/*activity left section*/
+
+
+.activityLeftSectionList{
+	margin:0px;
+}
+
+.activityLeftSectionList li{
+	padding:7px 7px 7px 15px;
+	font-weight:bold;
+	border-left: 7px solid green;
+}
+
+/*activity right section*/
+.activityRightSectionWrapper{
+	padding-right: 30px;
+	border-left: 1px solid #eee;
+}
+
+.activityRightSectionHeaderRow{
+	padding-bottom:5px;
+}
+
+.activityRightSectionHeader{
+	border-bottom: 1px solid #eee;
+    font-weight: 700;
+	padding:7px;
+}
+
+.activityRightSectionBody{
+	padding:5px;
+	
+}
+
+.activityRightSectionBodyItems{
+	display:inline-block;
+	vertical-align:top;
+	border:1px solid black;
+	height: 117px;
+    width: 187px;
+	margin:7px;
+	overflow:hidden;
+	border-radius:3px;
+	position:relative;
+	border: 1px solid #eee;
+	box-shadow:0px 1px 6px #c7c7c7;
+	padding:5px;
+	
+}
+
+.activityRightSectionBodyItemsTitle{
+	font-weight:bold;
+	margin:21px 7px;
+	z-index:999;
+	position:absolute;
+}

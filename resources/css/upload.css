@@ -1,0 +1,42 @@
+.upload_wrapper{
+margin-top:77px;
+}
+
+.upload_wrapper_panel{
+	margin:0px 17px; box-shadow: 1.5px 1.5px 7px 0.3px #ADADAD;
+	
+}
+
+.upload_wrapper_form{
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+#user_img{
+height:217px;
+width:217px;
+}
+
+
+#upload_text{
+font-weight:bold;
+font-size:31px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+@media only screen and (min-width: 768px){
+
+.upload_wrapper_panel{
+	margin:0px 100px; box-shadow: 1.5px 1.5px 7px 0.3px #ADADAD;
+	
+}
+
+.upload_wrapper_form{
+	margin-top:80px;
+	margin-bottom: 57px;
+}
+
+
+}
+
