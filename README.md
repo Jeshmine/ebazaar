@@ -1,3 +1,3 @@
 # ebazaar
-this project is made using PHP codeigniter framework.
-use ebazaar.sql as database
+This project is made using PHP codeigniter framework.
+Use ebazaar.sql as database
